@@ -19,11 +19,6 @@ body {
 		margin:0 auto;
 	}
 }
-.main{
-	width:6.4rem;
-	height:100%;
-	margin:0 auto;
-}
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -189,7 +184,10 @@ body {
 
 
 
-
+.second_bg{
+	color:#fff;
+	font-size: 2rem;
+}
 
 
 
