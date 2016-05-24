@@ -23,7 +23,7 @@
 		            <div class="swiper-slide main_first">
 		            	<div class="main_about">
 		            		
-		            		<div class="ani main_small" swiper-animate-effect="rotateIn" swiper-animate-duration="1.5s" swiper-animate-delay="1s">
+		            		<div class="ani main_small-1" swiper-animate-effect="rotateIn" swiper-animate-duration="1.5s" swiper-animate-delay="1s">
 		            			<!--底下的小图 一直转圈-->
 		            			<img src="img/an_1.png" />
 		            		</div>
@@ -45,59 +45,145 @@
 		            		
 		            	</div>
 		            	<div class="ani main_cont" >
-		            		<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.3s">姓名：余志业</p>
-		            		<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s">年龄：24</p>
-		            		<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.9s">性别：男</p>
+		            		<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1.3s">姓名：余志业</p>
+		            		<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1.6s">年龄：24</p>
+		            		<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="2s">性别：男</p>
 		            	</div>
 		            	<!--指引箭头-->
 		            	<div class="ani main_nav" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay=".5s">
-		            		
+		            		<img src="img/bg_nav.png">
 		            	</div>
 		            </div>
 		            <!--第二个页面-->
 		            <div class="swiper-slide skill">
 		            	<div class="skill_head">
-		            		<div class="ani skill_img" swiper-animate-effect="skill_img" swiper-animate-duration="3s">
+		            		<div class="ani skill_img" swiper-animate-effect="skill_img" swiper-animate-duration="2s">
 		            			<!--齿轮-->
-		            			<img src="img/box_1.png" />
-		            			<span>
-		            				<p></p>
-		            			</span>
+		            			<img src="img/box_2.png" />
 		            		</div>
-		            		<!--齿轮下方 边线-->
-		            		<div class="ani skill_border" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay=".2s">
-		            			<p>专业技能</p>
+		            		<!--齿轮右方 边线-->
+		            		<div class="skill_border">
+		            			<span class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay=".2s"></span>
+		            			<b class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1s">专业技能</b>
 		            		</div>
 		            	</div>
+		            	<!-- 下面技能介绍 -->
 		            	<div class="skill_cont">
-		            		<p>HTML/CSS</p>
-		            		<p>JavaScript</p>
-		            		<p>HTML5/CSS3</p>
-		            		<p>JQuery/BootStrap/Swiper</p>
-		            		<p>FireWorks/PhotoShop</p>
-		            		<p>HBuilder/Sublime/DreamWeaver</p>
+		            		<ul>
+		            			<li class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="3s" swiper-animate-delay="1.2s">
+		            				<i>
+		            					<img src="img/an_3.png" />
+		            				</i>
+		            				<b>
+		            					HTML<br/>
+		            					CSS<br/>
+		            					SCSS<br/>...
+		            				</b>
+		            			</li>
+		            			<li class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="3s" swiper-animate-delay="1.6s">
+		            				<i>
+		            					<img src="img/an_3.png" />
+		            				</i>
+		            				<b>
+		            					JS<br/>
+		            					JQuery<br/>
+		            					Swiper<br/>...
+		            				</b>
+		            			</li>
+		            			<li class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="3s" swiper-animate-delay="2s">
+		            				<i>
+		            					<img src="img/an_3.png" />
+		            				</i>
+		            				<b>
+		            					HBuilder<br/>
+		            					PhotoShop<br/>
+		            					...
+		            				</b>
+		            			</li>
+		            			<li class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="3s" swiper-animate-delay="2.4s">
+		            				<i>
+		            					<img src="img/an_3.png" />
+		            				</i>
+		            				<b>
+		            					Git<br/>Gulp<br/>AvalonJS<br/>...
+		            				</b>
+		            			</li>
+		            		</ul>
+		            	</div>
+		            	
+		            	<!--指引箭头-->
+		            	<div class="ani main_nav" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay=".5s">
+		            		<img src="img/bg_nav.png">
 		            	</div>
 		            </div>
 		            <!--第三个页面-->
-		            <div class="swiper-slide main_same">
-		            	<div class="second_bg ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="2s" swiper-animate-delay="1s">
-	            		----无忧儿时
-	            	</div>
+		            <div class="swiper-slide main_work">
+		            	<div class="work_ixper">
+		            		<div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay=".5s">工作经验：</div>
+		            		<div>
+		            			<i class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="1s">2014年 7月 -- 2016年 5月</i>
+		            			<b class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">郑州网裕科技有限公司</b>
+		            			<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2s">担任职位:HTML5前端开发工程师</p>
+		            		</div>
+		            	</div>
+		            	<div class="work_duty">
+		            		<div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="3s">工作职责：</div>
+		            		<div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="3.5s">
+		            			<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="4s">根据设计图实现Web前端H5模块开发；</p>
+		            			<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="4.5s">优化代码并保持良好的兼容性；</p>
+		            			<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="5s">配合后台人员完成页面交互与网站更新。</p>
+		            		</div>
+		            	</div>
+		            	<!--指引箭头-->
+		            	<div class="ani main_nav" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay=".5s">
+		            		<img src="img/bg_nav.png">
+		            	</div>
 		            </div>
 		            <!--第四个页面-->
-		            <div class="swiper-slide main_same">Slide 4</div>
+		            <div class="swiper-slide main_expect">
+		            	<div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay=".2s">期待</div>
+		            	<ul>
+		            		<li>
+		            			<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay=".5s">期待公司</p>
+		            			<b class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1s">需要HTML5前端开发的互联网公司</b>
+		            		</li>
+		            		<li>
+		            			<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">期待职位</p>
+		            			<b class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2s">HTML5前端开发工程师</b>
+		            		</li>
+		            		<li>
+		            			<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s">期待薪资</p>
+		            			<b class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="3s">面议</b>
+		            		</li>
+		            	</ul>
+		            	<!--指引箭头-->
+		            	<div class="ani main_nav" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay=".5s">
+		            		<img src="img/bg_nav.png">
+		            	</div>
+		            </div>
 		            <!--第五个页面-->
-		            <div class="swiper-slide main_same">Slide 5</div>
-		            <!--第6个页面-->
-		            <div class="swiper-slide main_same">Slide 6</div>
-		            <!--第7个页面-->
-		            <div class="swiper-slide main_same">Slide 7</div>
-		            <!--第8个页面-->
-		            <div class="swiper-slide main_same">Slide 8</div>
-		            <!--第9个页面-->
-		            <div class="swiper-slide main_same">Slide 9</div>
-		            <!--第10个页面-->
-		            <div class="swiper-slide main_same">Slide 10</div>
+		            <div class="swiper-slide main_contact">
+		            	<div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay=".5s">联系方式</div>
+		            	<ul class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="1s">
+		            		
+		            		<li>
+		            			<i class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2s"><img src="img/last_1.png"></i>
+		            			<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1s">18925292795@163.com</span>
+		            		</li>
+		            		<li>
+		            			<i class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2s"><img src="img/last_2.png"></i>
+		            			<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1s"><a href="18925292795">18925292795</a></span>
+		            		</li>
+		            		<li>
+		            			<i class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2s"><img src="img/last_3.png"></i>
+		            			<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1s">1440326366</span>
+		            		</li>
+		            	</ul>
+		            	<!--指引箭头-->
+		            	<div class="ani main_nav" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay=".5s">
+		            		<img src="img/bg_nav.png">
+		            	</div>
+		            </div>
 		        </div>
 		        <!-- Add Pagination -->
 		        <div class="swiper-pagination"></div>
@@ -112,6 +198,7 @@
 		        pagination: '.swiper-pagination',
 		       mousewheelControl : true,
 		        direction: 'vertical',
+		        loop:'true',
 		        
 		        
 			    onInit: function(swiper){
