@@ -135,11 +135,11 @@ body {
 	position: absolute;
 	left:.2rem;
 	top:.2rem;
-	-webkit-animation:mov ease infinite;
+	-webkit-animation:mov linear infinite;
 }
 @-webkit-keyframes mov{
-	0%{transform:rotate(0deg);opacity: 0.1;}
-	100%{transform:rotate(360deg);opacity: 1;}
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(360deg);}
 }
 .skill_border span{
 	position: absolute;
