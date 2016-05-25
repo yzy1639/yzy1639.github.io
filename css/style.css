@@ -178,8 +178,8 @@ body {
 .skill_cont ul li:nth-child(1) b{
 	z-index: 999;
 	position: absolute;
-	left:.8rem;
-	top:.5rem;
+	left:.7rem;
+	top:.6rem;
 }
 .skill_cont ul li:nth-child(2){
 	position: absolute;
@@ -197,7 +197,7 @@ body {
 }
 .skill_cont ul li:nth-child(2) b{
 	position: absolute;
-	left:.7rem;
+	left:.6rem;
 	top:.7rem;
 }
 .skill_cont ul li:nth-child(3){
